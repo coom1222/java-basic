@@ -20,8 +20,7 @@ public class ClassStart5 {
             System.out.println("이름 " + student.name + " 나이: " + student.age + " 성적: " + student.grade);
         }
 
-        for (int i = 0; i < students.length; i++) {
-            Student s = students[i];
+        for (Student s : students) {
             System.out.println("이름 " + s.name + " 나이: " + s.age + " 성적: " + s.grade);
         }
         // iter -> 향상된 for문 단축
