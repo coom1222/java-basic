@@ -1,15 +1,13 @@
 package ref;
 
-class MyData {
-    int value;
-}
+
 
 public class VarChange1 {
 
     public static void main(String[] args) {
-        MyData dataA = new MyData();
+        Data dataA = new Data();
         dataA.value = 10;
-        MyData dataB = dataA;
+        Data dataB = dataA;
 
         System.out.println("dataA 참조값= " + dataA);  // 주소값이 나올 것
         System.out.println("dataB 참조값= " + dataB);  // 주소값이 나올 것

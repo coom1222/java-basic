@@ -9,6 +9,10 @@ public class Method1 {
 
         Student student2 = new Student();   //x002
         initStudent(student2, "학생2", 16,80);
+        /*
+        생성하고 초기화하고, 생성하고 초기화하고 뭔가 중복되는 느낌이다.
+        이를 Method2에서 바꿔서 생성할 때 초기화 해보자.
+         */
 
         printStudent(student1);
         printStudent(student2);
